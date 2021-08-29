@@ -30,6 +30,7 @@
 
 ```bash
 $ npm install
+$ npm run build
 ```
 
 ## Running the app
@@ -43,6 +44,16 @@ $ npm run start:dev
 
 # production mode
 $ npm run start:prod
+
+# set Mail configuration on .env file
+# postman send POST request with params 
+#   name: string, 
+#   email: string;
+#   from_name: string;
+#   from_email: string;
+#   subject: string;
+#   message: string;
+$ localhost:3000/mail
 ```
 
 ## Test
